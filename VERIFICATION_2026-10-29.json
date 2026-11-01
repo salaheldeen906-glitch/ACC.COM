@@ -1,0 +1,59 @@
+{
+  "version": "preview-1",
+  "date": "2026-10-29",
+  "automated_checks": 158,
+  "suites": [
+    {
+      "suite": "model.test.cjs",
+      "checks": 25,
+      "status": "PASS"
+    },
+    {
+      "suite": "access.test.cjs",
+      "checks": 29,
+      "status": "PASS"
+    },
+    {
+      "suite": "imports.test.cjs",
+      "checks": 72,
+      "status": "PASS"
+    },
+    {
+      "suite": "invoice-item.test.cjs",
+      "checks": 8,
+      "status": "PASS"
+    },
+    {
+      "suite": "integration.test.cjs",
+      "checks": 24,
+      "status": "PASS"
+    }
+  ],
+  "browser_pass": [
+    "Mixed purchase invoice source, rates and balanced entry inspected",
+    "Actual two-sheet XLSX chart upload, mapping, validation and apply",
+    "Company expiry stops manager access, owner can restore dates",
+    "Viewer create/export disabled and readable invoice opens",
+    "New sales invoice100+14VAT=114: draft then review/approve/post",
+    "Partial collection57: cash55.50+withholding1.50, entryposted",
+    "Text attachment linked to document and persisted",
+    "Secondcompany starts with independent zeroledger",
+    "AR/EN switch and Arabic desktop visual inspection"
+  ],
+  "not_verified": [
+    "Full screen-reader testing",
+    "All mobile viewports and browsers",
+    "Browser export download receipt",
+    "Production authentication/server authorization and concurrent access",
+    "Comprehensive tax/IFRS compliance and all commercial edgecases"
+  ],
+  "boundaries": [
+    "Browserlocal data and simulated access only",
+    "Example rates are not statutory defaults",
+    "Periodic inventory valuation, not perpetual",
+    "23 explicit import types; no arbitraryExcelformula conversion orPDFOCR",
+    "Chart import adds accounts and preserves automatic controlaccounts; fullcustommappingreviewrequired",
+    "Some dynamicallycomposed Englishstrings may remainArabic"
+  ],
+  "live_site_changed": false
+}

@@ -1,0 +1,103 @@
+{
+  "passed": 24,
+  "failed": 0,
+  "scope": "Node VM integration with lightweight DOM stubs; not browser or screen-reader verification",
+  "tests": [
+    {
+      "name": "All 52 original sheet render functions execute with seeded linked data",
+      "status": "PASS"
+    },
+    {
+      "name": "All four new tax sheet render functions execute with drill-down links",
+      "status": "PASS"
+    },
+    {
+      "name": "All 56 central routes render without exceptions",
+      "status": "PASS"
+    },
+    {
+      "name": "Workspace switches isolate data by company instead of just changing a label",
+      "status": "PASS"
+    },
+    {
+      "name": "Viewer can inspect existing cycle document while remaining unable to create or export",
+      "status": "PASS"
+    },
+    {
+      "name": "Company expiry blocks protected data and current operations without deleting records",
+      "status": "PASS"
+    },
+    {
+      "name": "Feature cap denies reading sales documents through cycle and direct document guards",
+      "status": "PASS"
+    },
+    {
+      "name": "Read-only user creation button is blocked in capturing handler",
+      "status": "PASS"
+    },
+    {
+      "name": "Blocked creation creates no document and no modal form",
+      "status": "PASS"
+    },
+    {
+      "name": "Viewer cannot open single-invoice settlement from an existing readable invoice",
+      "status": "PASS"
+    },
+    {
+      "name": "Viewer cannot open prepaid release from an existing readable invoice",
+      "status": "PASS"
+    },
+    {
+      "name": "Viewer cannot open batch settlement chooser from an existing readable invoice",
+      "status": "PASS"
+    },
+    {
+      "name": "Viewer cannot open batch settlement form from an existing readable invoice",
+      "status": "PASS"
+    },
+    {
+      "name": "Viewer cannot open journal operation shortcut from an existing readable invoice",
+      "status": "PASS"
+    },
+    {
+      "name": "Disabled sales feature blocks transaction entry from home action",
+      "status": "PASS"
+    },
+    {
+      "name": "Manager feature ceiling blocks accounts import before applying data",
+      "status": "PASS"
+    },
+    {
+      "name": "Manager feature ceiling blocks purchase import before applying data",
+      "status": "PASS"
+    },
+    {
+      "name": "Manager feature ceiling blocks stockin import before applying data",
+      "status": "PASS"
+    },
+    {
+      "name": "Manager feature ceiling blocks payroll import before applying data",
+      "status": "PASS"
+    },
+    {
+      "name": "Pending file upload cannot cross into another company when actor switches workspace",
+      "status": "PASS"
+    },
+    {
+      "name": "Successful attachment retains original company, actor and linked document",
+      "status": "PASS"
+    },
+    {
+      "name": "Access expiry during file read prevents committing the attachment",
+      "status": "PASS"
+    },
+    {
+      "name": "Attachment with an unavailable document reference is rejected before reading",
+      "status": "PASS"
+    },
+    {
+      "name": "Storage failure does not claim attachment saved or mutate in-memory attachment list",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "pass": 25,
+  "fail": 0,
+  "tests": [
+    {
+      "name": "Existing engine reused byte-for-byte, with full existing account chart",
+      "status": "PASS"
+    },
+    {
+      "name": "Empty preview has masters but zero ledger effect",
+      "status": "PASS"
+    },
+    {
+      "name": "Complete seeded scenario is balanced with one harmless draft",
+      "status": "PASS"
+    },
+    {
+      "name": "Each of three supplier lines retains independently entered WHT rate",
+      "status": "PASS"
+    },
+    {
+      "name": "Saving draft never changes balances even if input claims posted journal",
+      "status": "PASS"
+    },
+    {
+      "name": "Detailed purchase, stock receipt, sale, stock issue and payment are linked once",
+      "status": "PASS"
+    },
+    {
+      "name": "One collection settles two invoices without duplicate bank postings",
+      "status": "PASS"
+    },
+    {
+      "name": "Warehouse transfer separates balances and preserves total quantity",
+      "status": "PASS"
+    },
+    {
+      "name": "Periodic stock valuation reconciles physical receipt cost once",
+      "status": "PASS"
+    },
+    {
+      "name": "Foreign service and settlement expose reverse VAT, fee and FX separately",
+      "status": "PASS"
+    },
+    {
+      "name": "Prepaid release empties prepaid account and retains invoice debt",
+      "status": "PASS"
+    },
+    {
+      "name": "Internal software moves from CIP to ready asset then amortizes",
+      "status": "PASS"
+    },
+    {
+      "name": "Payroll reports worker/company shares and payments clear liabilities",
+      "status": "PASS"
+    },
+    {
+      "name": "Posting duplicate document fails atomically",
+      "status": "PASS"
+    },
+    {
+      "name": "Imbalanced manual journal fails atomically without orphan draft",
+      "status": "PASS"
+    },
+    {
+      "name": "Unreviewed rates and missing explicit VAT rate block posting atomically",
+      "status": "PASS"
+    },
+    {
+      "name": "Over-receipt linked to invoice is rejected without mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "Second receipt cannot exceed remaining invoice line quantity",
+      "status": "PASS"
+    },
+    {
+      "name": "Unscoped receipt cannot be reused by supplying its explicit invoice line later",
+      "status": "PASS"
+    },
+    {
+      "name": "Same item on several invoice lines requires an explicit line and respects aggregate quantity",
+      "status": "PASS"
+    },
+    {
+      "name": "Stock issue cannot make warehouse negative",
+      "status": "PASS"
+    },
+    {
+      "name": "Closed period rejects document with no mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "Lifecycle remains staged, and posting is idempotent",
+      "status": "PASS"
+    },
+    {
+      "name": "Detailed invoices and settlement journal snapshots survive verified restore",
+      "status": "PASS"
+    },
+    {
+      "name": "Report financials and trial agree on same period",
+      "status": "PASS"
+    }
+  ]
+}

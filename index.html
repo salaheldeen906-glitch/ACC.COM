@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>صلاح المحاسبي — معاينة الدورة المتكاملة v1</title>
+<meta name="description" content="نموذج تفاعلي عربي لاستكشاف 52 ورقة ودورات المحاسبة ببيانات تجريبية، قبل اعتماد التصميم.">
+
+<link rel="stylesheet" href="base/app.css"><link rel="stylesheet" href="preview.css">
+</head>
+<body>
+<a href="#main" class="skip">انتقل للمحتوى</a>
+<div class="demo-strip"><span class="pulse"></span> معاينة مستقلة · حسابات ومنتجات وخدمات ومخازن <span class="strip-detail">بيانات محلية · الدخول والصلاحيات محاكاة للمراجعة</span></div>
+<div class="shell">
+<aside id="sidebar" aria-label="أقسام النظام">
+<a class="brand" href="#home"><span class="brand-icon">ص</span><span>صلاح<span class="brand-sub">المحاسبي / مساحة التجربة</span></span></a>
+<button class="tour-launch" data-action="tour"><span>◈</span><span>الدورة الكاملة<small>امشِ خطوة بخطوة</small></span><span>←</span></button>
+<label class="nav-search"><span>⌕</span><input id="navSearch" type="search" placeholder="ابحث في الوظائف والأوراق…" aria-label="البحث في الأوراق"></label>
+<nav class="administration-nav" id="previewAdmin" aria-label="الإدارة والبيانات"></nav><nav id="navigation"></nav>
+<div class="sidebar-footer"><button data-action="map">خريطة التغطية <span>56 ورقة</span></button><button data-action="help">؟ دليل التجربة والحدود</button></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><button id="menuToggle" class="icon-btn" aria-label="إظهار أو إخفاء القائمة" aria-expanded="false">☰</button><div><span class="eyebrow">منتجات وخدمات ومخازن · بيئة المعاينة</span><strong id="companyName">صلاح للخدمات الرقمية</strong></div><div class="top-actions"><button id="languageToggle" type="button" lang="en" aria-label="Switch to English">EN</button><button id="fontToggle" type="button" aria-label="تكبير الخط" aria-pressed="false">أ +</button><button type="button" data-action="report-export">تصدير</button><span class="local-saved" id="saveStatus">● محفوظ محليًا</span><label class="role-picker">تجربة المستخدم<select id="previewActor" aria-label="تبديل المستخدم داخل المحاكاة"></select></label><label class="role-picker" id="companyPickerLabel">الشركة<select id="previewCompany" aria-label="الشركة الحالية"></select></label><button class="avatar" data-action="help" aria-label="دليل التجربة">ص</button></div></header>
+<div class="periodbar"><div class="breadcrumb" id="breadcrumb">الرئيسية</div><div class="period-fields"><label>من <input id="fromDate" type="date" value="2026-10-01"></label><label>إلى <input id="toDate" type="date" value="2026-10-31"></label><span class="period-badge" id="periodBadge">فترة مفتوحة</span><button class="text-btn" data-action="print">طباعة</button></div></div>
+<main id="main" tabindex="-1"></main>
+<footer class="app-footer"><span>صلاح المحاسبي · معاينة 1 · 29 أكتوبر 2026</span><span>تتبع الأثر من المستند إلى التقرير</span></footer>
+</div></div>
+<dialog id="modal" aria-labelledby="modalTitle"><div id="dialogContent"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="base/i18n.js"></script><script src="base/unified-i18n.js"></script>
+<script src="exceljs.min.js"></script><script src="base/schema.js"></script><script src="engine.js"></script><script src="model.js"></script>
+<script src="base/app.js"></script><script src="base/file-tools.js"></script><script src="base/invoice-ui.js"></script><script src="base/journal-tax-ui.js"></script>
+<script src="imports.js"></script><script src="access.js"></script><script src="preview-shell.js"></script><script src="preview-translations.js"></script>
+</body></html>

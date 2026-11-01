@@ -1,0 +1,8 @@
+{
+  "version": "preview-1",
+  "date": "2026-10-29",
+  "html_sha256": "fccab89e35ef8e798dd7b9869139c51011973e306a1a9832cbfb04ad06c6dbf5",
+  "automated_checks": 158,
+  "live_site_unchanged": true,
+  "source_baseline": "Existing accounting prototype business engine reused unchanged; new local shell/import/access adapters"
+}
